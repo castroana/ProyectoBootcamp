@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enfermedades</title>
+    <link rel="stylesheet" href="css/mentalstyle2.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <!-- menú navegación -->
+    <nav class="navbar teal lighten-3">
+        <div class="brand-wrapped container">
+            <a href=""><img src="img/Logo Psyco.png" alt="Logo" class="logo-brand"></a>
+            <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                <i class="material-icons right ">menu</i></a>
+
+            <ul class="left hide-on-med-and-down" id="menu-responsive">
+                <li><a href="file:///Users/anamariacastro/Desktop/ProyectoFinalUnidad2/index.html#">Inicio</a></li>
+                <li><a class="dropdown-trigger" href="file:///Users/anamariacastro/Desktop/ProyectoFinalUnidad2/enfermedades2.html" data-target="dropdown2">Enfermedades Mentales<i
+                            class="material-icons right ">arrow_drop_down</i></a></li>
+                <li><a href="#contáctanos">Contáctanos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- menú navegación responsive-->
+    <ul class="sidenav" id="menu-responsive">
+        <li><a href="file:///Users/anamariacastro/Desktop/ProyectoFinalUnidad2/index.html#">Inicio</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="file:///Users/anamariacastro/Desktop/ProyectoFinalUnidad2/enfermedades2.html" data-target="dropdown1">Enfermedades Mentales<i
+                    class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="#contáctanos">Contacto</a></li>
+    </ul>
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="#depresivo">Trastorno depresivo</a></li>
+        <li><a href="#!">Trastorno de ansiedad</a></li>
+        <li><a href="#!">Trastorno bipolar</a></li>
+        <li><a href="#!">Demencia</a></li>
+        <li><a href="#!">Déficit de atención</a></li>
+        <li><a href="#!">Esquizofrenia</a></li>
+        <li><a href="#!">Autismo</a></li>
+        <li><a href="#!">Estres postraumático</a></li>
+    </ul>
+    </div>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/parallax.jpg"></div>
+        <div class="back black-text">
+            <div class="container">
+                <div class="section center-align">
+                    <h2> <b>ENFERMEDADES MENTALES</b></h2>
+                    <P><b> A continuación algunas enfermedades mentales propias del ser humano </b></P>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- primera fila cards -->
+    <div class="container section">
+        <div class="row">
+            <div class="col l4 pull-l2 z-depth-3">
+                <div class="card" id="depresivo">
+                    <div class="card-image">
+                        <img src="img/Trastorno_depresivo.jpg" alt="Trastorno_depresivo">
+                    </div>
+                    <div class="card-content">
+                        <h6><b> Trastorno Depresivo</b></h6>
+                        <br>
+                        <p> Trastorno de salud mental que se caracteriza por depresión persistente o pérdida de interés
+                            en las
+                            actividades, lo que puede causar dificultades significativas en la vida cotidiana.</p>
+                    </div>
+                    <a class="btn modal-trigger yellow lighten-1 black-text" href="idModal">Conoce más</a>
+
+                    <div id="#idModal" class="modal">
+                        <div class="modal-content">
+                            <p>Las causas posibles incluyen una combinación de fuentes biológicas, psicológicas y
+                                sociales de angustia. Cada vez son más las investigaciones que sugieren que estos
+                                factores pueden ocasionar cambios en la función cerebral, como la actividad anormal de
+                                ciertos circuitos neuronales en el cerebro.
+                                El sentimiento de tristeza permanente o la pérdida de interés que caracterizan a la
+                                depresión grave pueden provocar una variedad de trastornos emocionales y físicos. Pueden
+                                incluir trastornos en hábitos del sueño, apetito, nivel de energía, concentración,
+                                comportamiento diario o autoestima. La depresión también puede asociarse con
+                                pensamientos suicidas.
+                                El tratamiento principal son los medicamentos, la terapia conversacional o una
+                                combinación de ambos. Cada vez son más las investigaciones que sugieren que estos
+                                tratamientos pueden normalizar los cambios cerebrales asociados con la depresión.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <a href="#idModal" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 push-l0.5 z-depth-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Trastorno_ansiedad.jpg" alt="Trastorno_ansiedad">
+                    </div>
+                    <div class="card-content">
+                        <h6><b>Trastorno de Ansiedad</b></h6>
+                        <br>
+                        <p> Se caracteriza por producir sensaciones de preocupación, ansiedad o miedo, tan fuertes que
+                            interfieren con las actividades diarias de quien las padece.</p>
+                    </div>
+                    <a href="idModal1" class="btn modal-trigger yellow lighten-1 black-text">Conoce más</a>
+
+                    <div id="#idModal1" class="modal">
+                        <div class="modal-content">
+                            <p>Algunos trastornos de ansiedad pueden ser los ataques de pánico, los trastornos obsesivos
+                                compulsivos y los trastornos de estrés postraumático.
+                                Los síntomas incluyen inquietud, imposibilidad de dejar a un lado una preocupación y
+                                estrés fuera de proporción con el impacto del acontecimiento.
+                                El tratamiento incluye psicoterapia o medicamentos, como los antidepresivos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 push-l2 z-depth-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Trastorno_bipolar.jpg" alt="Trastorno_bipolar">
+                    </div>
+                    <div class="card-content">
+                        <h6><b>Trastorno Bipolar</b></h6>
+                        <br>
+                        <p> Trastorno que provoca altibajos emocionales, que van desde trastornos de depresión hasta
+                            episodios maníacos.</p>
+                    </div>
+                    <a href="#idModal2" class="btn modal-trigger yellow lighten-1 black-text down-align">Conoce más</a>
+
+                    <div id="idModal2" class="modal">
+                        <div class="modal-content">
+                            <p>Se desconoce la causa exacta del trastorno bipolar, pero es posible que tenga que ver con
+                                una combinación de factores genéticos y ambientales y de la alteración de las sustancias
+                                químicas y las estructuras del cerebro.
+                                Los episodios maníacos pueden incluir síntomas como exceso de energía, reducción de la
+                                necesidad de dormir y pérdida de noción de la realidad. Los episodios depresivos pueden
+                                incluir síntomas como falta de energía, poca motivación y pérdida de interés en las
+                                actividades cotidianas. Los episodios de cambios de humor duran de días a meses y
+                                también pueden estar asociados con pensamientos suicidas.
+                                El tratamiento suele ser de por vida e incluir una combinación de medicamentos y
+                                psicoterapia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- segunda fila cards -->
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/parallax2.jpg"></div>
+    </div>
+    <div class="container section">
+        <div class="row">
+            <div class="col l4 l3 pull-l2 z-depth-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Trastorno_demencia.jpg" alt="Trastorno_demencia">
+                    </div>
+                    <div class="card-content">
+                        <h6><b>Demencia</b></h6>
+                        <br>
+                        <p> Conjunto de pensamientos y síntomas sociales que interfieren con la vida cotidiana.</p>
+                    </div>
+                    <a href="#idModal3" class="btn modal-trigger yellow lighten-1 black-text">Conoce más</a>
+
+                    <div id="idModal3" class="modal">
+                        <div class="modal-content">
+                            <p>La demencia no es una enfermedad específica, sino un grupo de trastornos caracterizados
+                                por
+                                el deterioro de, al menos, dos funciones cerebrales, como la memoria y la razón. Los
+                                síntomas incluyen olvidos, aptitudes sociales restringidas y razonamiento tan
+                                limitado que interfiere en las actividades diarias.
+                                Los medicamentos y la terapia pueden ayudar a controlar los síntomas. Algunas causas son
+                                reversibles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4  l3 push-l0.5 z-depth-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Deficit_atención.jpg" alt="Trastorno_depresivo">
+                    </div>
+                    <div class="card-content">
+                        <h6><b>Déficit de atención</b></h6>
+                        <br>
+                        <p> Trastorno crónico caracterizado por la dificultad para prestar atención, la hiperactividad y
+                            la impulsividad.
+                            El ADHD suele comenzar en la niñez y puede persistir hasta la edad adulta. </p>
+                    </div>
+                    <a href="#idModal4" class="btn modal-trigger yellow lighten-1 black-text">Conoce más</a>
+
+                    <div id="idModal4" class="modal">
+                        <div class="modal-content">
+                            <p>Este trastorno puede ocasionar baja autoestima, problemas en las relaciones y
+                                dificultades en la escuela o el trabajo.
+                                Los síntomas incluyen hiperactividad y atención limitada.
+                                El tratamiento incluye medicamentos y terapia conversacional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 l3 push-l2 z-depth-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/esquizofrenia.jpeg" alt="Esquizofrenia">
+                    </div>
+                    <div class="card-content">
+                        <h6><b>Esquizofrenia</b></h6>
+                        <br>
+                        <p> Trastorno que afecta la capacidad de una persona para pensar, sentir y comportarse de manera
+                            lúcida.</p>
+                    </div>
+                    <a href="#idModal5" class="btn modal-trigger yellow lighten-1 black-text">Conoce más</a>
+
+                    <div id="idModal5" class="modal">
+                        <div class="modal-content">
+                            <p>Se desconoce la causa exacta de la esquizofrenia, pero es posible que tenga que ver con
+                                una combinación de factores genéticos y ambientales y de la alteración de las sustancias
+                                químicas y las estructuras del cerebro
+                                La esquizofrenia se caracteriza por pensamientos o experiencias que parecen estar
+                                desconectados de la realidad, habla o comportamiento desorganizados y disminución de la
+                                participación en las actividades cotidianas. También pueden presentarse dificultades en
+                                la concentración y la memoria.
+                                El tratamiento suele ser de por vida e incluir una combinación de medicamentos,
+                                psicoterapia y servicios de cuidado especialmente coordinados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tercera fila cards -->
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/parallax.jpg"></div>
+    </div>
+    <div class="container section">
+        <div class="row">
+            <div class="col s4 z-depth-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Autismo.jpg" alt="Autismo">
+                    </div>
+                    <div class="card-content">
+                        <h6><b>Autismo</b></h6>
+                        <br>
+                        <p> Trastorno agudo del desarrollo que afecta la capacidad de comunicarse y de interaccionar.
+                            El trastorno del espectro autista afecta al sistema nervioso.</p>
+                    </div>
+                    <a href="#idModal6" class="btn modal-trigger yellow lighten-1 black-text">Conoce más</a>
+
+                    <div id="idModal6" class="modal">
+                        <div class="modal-content">
+                            <p>La variedad y la gravedad de los síntomas pueden variar mucho. Los síntomas más comunes
+                                son la dificultad para comunicarse, la dificultad con las interacciones sociales, los
+                                intereses obsesivos y los comportamientos repetitivos.
+                                El diagnóstico temprano y la terapia conductual, educativa y familiar pueden reducir los
+                                síntomas y brindar apoyo para el desarrollo y el aprendizaje.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s5 push-s2 z-depth-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Estres_postraumático.jpg" alt="Estres Postraumático">
+                    </div>
+                    <div class="card-content">
+                        <h6><b>Estres Postraumático</b></h6>
+                        <br>
+                        <p> Trastorno caracterizado por la imposibilidad de recuperarse después de experimentar o
+                            presenciar un evento atemorizante.</p>
+                    </div>
+                    <a href="#idModal7" class="btn modal-trigger yellow lighten-1 black-text">Conoce más</a>
+
+                    <div id="idModal7" class="modal">
+                        <div class="modal-content">
+                            <p>El trastorno puede durar desde meses hasta años y suele haber episodios que recuerdan el
+                                trauma y causan intensas reacciones emocionales y físicas.
+                                Entre los síntomas se encuentran tener pesadillas o recuerdos repentinos, evitar
+                                situaciones que recuerden el trauma, reaccionar exageradamente ante los estímulos, y
+                                sufrir de ansiedad o depresión.
+                                El tratamiento incluye diferentes tipos de psicoterapia y medicamentos para controlar
+                                los síntomas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<hr>
+    <!-- formulario -->
+<section>
+    <div class="section container" id="contáctanos">
+        <div class="row">
+            <form class="col l6">
+                <h3>Quieres saber más?</h3>
+                    <p class="final_text">Contáctanos para hablar con un especialista</p>
+            </form>
+    
+            <form class="col l6">
+                <div class="row card-panel z-depth-3">
+
+                    <div class="input-field col s6">
+                        <input type="text" id="nombre" class="validate" required>
+                        <label for="nombre:">Nombre:</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <input type="text" id="apellido" class="validate" required>
+                        <label for="apellido:">Apellido:</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <input type="email" id="email" class="validate" required>
+                        <label for="email:">Email:</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <input type="number" id="number">
+                        <label for="number:">Teléfono (opcional):</label>
+                    </div>
+                    <button class="btn" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>   
+      </div>
+</section>
+<hr>
+    <!-- footer -->
+    <footer class="page-footer teal lighten-3">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 l6">
+              <h5 class="white-text">Elaborador</h5>
+              <p class="grey-text text-lighten-4">Ana María Castro G.</p>
+            </div>
+                <div class="col s12 l6">
+                  <div class="col l6 offset-l6 s12">
+                    <h5 class="white-text ">Mis redes</h5>
+                      <ul class="list-inline white-text">
+                        <li class="list-inline-item"></li><a href="#"><i class="icon ion-logo-instagram white-text"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="icon ion-logo-twitter white-text"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="icon ion-logo-facebook white-text"></i></a></li>
+                       
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>  
+        <div class="footer-copyright">
+            <div class="container">
+                Copyright
+                <a class="grey-text text-lighten-4 right" href="#!"> © 2020 Todos los derechos Reservados</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit();
+        })
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems);
+        });       
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+        });
+    </script>
+
+
+</body>
+
+</html>

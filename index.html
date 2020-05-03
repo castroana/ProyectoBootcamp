@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicología</title>
+    <link href="https://fonts.googleapis.com/css?family=Aclonica|Acme|Neucha&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <style>
+        .navbar {
+            background-color: rgba(24, 168, 173, 0.541);
+         }
+
+        .logo-brand{
+            text-decoration-color: white;
+        }
+
+        .slider {
+            background: url("img/psicologia.jpg") #000000;
+            height: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            font-family: 'Aclonica', sans-serif;
+        }
+
+        h3 {
+            font-family: 'Neucha', cursive;
+        }
+
+        .paragraph {
+            background-color: rgba(24, 168, 173, 0.541);
+            
+        }
+
+        .paragraph1 {
+            font-family: 'Neucha', cursive;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html"><img src="img/Logo Psyco.png" alt="Logo" class="logo-brand left"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active text-white"
+                    href="file:///Users/anamariacastro/Desktop/ProyectoFinalUnidad2/index.html#">Inicio <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-white" href="file:///Users/anamariacastro/Desktop/ProyectoFinalUnidad2/enfermedades2.html">Enfermedades Mentales</a>
+                <a class="nav-item nav-link text-white" href="#mis_redes">Contáctanos</a>
+            </div>
+        </div>  
+    </nav>
+
+    <section class="container-fuid slider d-flex justify-content-center align-items-center">
+        <h1 class="display-2 text-white font-weight-bold">PSICOLOGIA</h1>
+    </section>
+
+    <section class="paragraph p-3 mb-2 mt-1 ">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="paragraph1 text-center p-5 text-white"> Es la ciencia que se ocupa tanto teórica, como
+                        prácticamente, al estudio de los aspectos biológicos, sociales y culturales del comportamiento
+                        humano, tanto a nivel social como individual, así como también del funcionamiento y desarrollo
+                        de la mente humana. Pero el video a continuación nos aporta explicación
+                        adicional de este término...<b>VAMOS A VERLO!!</b>.</p>
+                </div>
+                <div class="col-md-6">
+                    <video class="video-fluid z-depth-1 mt-4 p4 text-center" autoplay loop controls>
+                        <source src="video/Video_psyco.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-5" topmargin-sm>
+                    <h3>Quieres saber más?</h3>
+                    <p class="final_text">Contáctanos para hablar con un especialista</p>
+                </div>
+                <div class="col-md-6 mt-5" topmargin-sm>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Nombre">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <form class="form-group">
+                                <input type="email" class="form-control" id="" placeholder="Email">
+                            </form>
+                        </div>
+                        <div class="col-md-12">
+                            <form class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Compañía">
+                            </form>
+                        </div>
+                        <div class="col-md-12">
+                            <form class="form-group">
+                                <input type="number" class="form-control" id="" placeholder="Teléfono (Opcional)">
+                            </form>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="#" class="btn btn-dark full-width">Contactar a un asesor</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<footer class="text-center footer-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 footer-col">
+                <h3>Nombre Elaborador</h3>
+                <p>
+                    Ana Marìa Castro
+                </p>
+            </div>
+            <div class="col-md-4 footer-col" id="mis_redes">
+                <h3>Mis redes</h3>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="icon ion-logo-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 footer-col">
+                <h3>Copyright</h3>
+                <p>© Todos los derechos reservados</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
